@@ -15,68 +15,68 @@ function App() {
   let random = [
     {
       id: 1,
-      description: 'Di si por favor',
-      img: 'https://i.pinimg.com/originals/db/aa/c1/dbaac13f6278b91a15e480752b8a7242.gif',
+      description: 'Que...?💔',
+      img: 'https://media.tenor.com/Y4_Mqd45GDYAAAAj/instant-heartbreak-heartbreak.gif',
     },
     {
       id: 1,
-      description: 'Piénsalo de nuevo.',
-      img: 'https://i.pinimg.com/originals/77/6b/21/776b215bed3deeef47fd3aa657685a18.gif',
+      description: 'PORRR???',
+      img: 'https://media.tenor.com/ofSLMrJam7QAAAAi/milk-and-mocha.gif',
     },
     {
       id: 2,
-      description: 'Vamos, atrévete a decir que sí.',
-      img: 'https://media.tenor.com/DTmYqda3ZokAAAAi/peachandgoma.gif',
+      description: 'Creo que te equivocaste de botón jaja',
+      img: 'https://media.tenor.com/-GBAbJiMuQUAAAAM/newtooth-newt00th-newt00th.gif',
     },
     {
       id: 3,
-      description: 'No tengas miedo, será genial.',
-      img: 'https://i.pinimg.com/originals/e1/c3/88/e1c388133e0f998e25bb17c837b74a14.gif',
+      description: 'Por favor...',
+      img: 'https://media.tenor.com/Qu6GUg0Yx90AAAAj/mocha-cry.gif',
     },
     {
       id: 4,
-      description: 'Confía en mí, será divertido.',
-      img: 'https://media.tenor.com/Bn88VELdNI8AAAAi/peach-goma.gif',
+      description: 'Pero seria muy lindo amor💔',
+      img: 'https://media.tenor.com/67jSZL8qnl8AAAAi/milk-and-mocha.gif',
     },
     {
       id: 5,
-      description: 'No tengas dudas, te hará sonreír.',
-      img: 'https://i.pinimg.com/originals/c6/b3/0d/c6b30d1a2dc178aeb92de63295d4ae64.gif',
+      description: 'Dale no seas mala :c',
+      img: 'https://i.pinimg.com/736x/0a/a6/68/0aa66825819790b5fee1d46fd5cadad6.jpg',
     },
     {
       id: 6,
-      description: 'Te prometo que será inolvidable.',
-      img: 'https://media.tenor.com/N2oqtqaB_G0AAAAi/peach-goma.gif',
+      description: 'DALE PONE QUE SI',
+      img: 'https://i.pinimg.com/736x/af/9d/20/af9d20b4d873b36e6eb05c605584d1f7.jpg',
     },
     {
       id: 7,
-      description: 'No dejes que el miedo te detenga.',
-      img: 'https://i.pinimg.com/originals/db/aa/c1/dbaac13f6278b91a15e480752b8a7242.gif',
+      description: 'Hai...',
+      img: 'https://media.tenor.com/P7LyTvDSvDIAAAAi/milk-and-mocha.gif',
     },
     {
       id: 8,
-      description: 'Confía en el destino, nos está dando una señal.',
-      img: 'https://media.tenor.com/cbEccaK9QxMAAAAi/peach-goma.gif',
+      description: 'POR FAVORRRRRRRRRRRR',
+      img: 'https://media.tenor.com/YX3gy4zfJGQAAAAi/milk-and-mocha.gif',
     },
     {
       id: 9,
-      description: 'Confía en mí.',
-      img: 'https://i.pinimg.com/originals/db/aa/c1/dbaac13f6278b91a15e480752b8a7242.gif',
+      description: 'DALEEEEE💔💔💔',
+      img: 'https://media.tenor.com/k-qmjdw6ClkAAAAi/milk-and-mocha-milk.gif',
     },
     {
       id: 10,
-      description: 'No te arrepentirás.',
-      img: 'https://media.tenor.com/I7KdFaMzUq4AAAAi/peach-goma.gif',
+      description: 'Dale amorchito yo se que queres...',
+      img: 'https://cdn.cdnstep.com/0XdyfapPCObwGktlkcak/0.png',
     },
     {
       id: 11,
-      description: 'Ya pon que siiii',
-      img: 'https://media.tenor.com/_4KFcz84OGMAAAAj/cute.gif',
+      description: 'DEJATE PUESSS',
+      img: 'https://media.tenor.com/Qu6GUg0Yx90AAAAj/mocha-cry.gif',
     },
     {
       id: 12,
-      description: 'Dale, no seas mala',
-      img: 'https://media.tenor.com/Az64YfoL7JcAAAAj/rawr.gif',
+      description: 'Que mala...',
+      img: 'https://media.tenor.com/Qu6GUg0Yx90AAAAj/mocha-cry.gif',
     },
   ];
 
@@ -104,7 +104,7 @@ function App() {
       {!valueSi ? (
         <div className="p-5">
           <h1 className="font-bold text-5xl text-center">
-            ¿Quieres ser mi San Valentin?
+            ¿Queres ser mi San Valentin?
           </h1>
           <img
             src={
@@ -123,7 +123,7 @@ function App() {
                 setValueSi(true);
 
                 jsConfetti.addConfetti({
-                  emojis: ['😍', '🥰', '❤️', '😘'],
+                  emojis: ['💗', '💕', '❣️', '💞'],
                   emojiSize: 70,
                   confettiNumber: 200,
                 });
@@ -148,7 +148,7 @@ function App() {
                 {
                   (document.title =
                     Object.keys(randomValor).length === 0
-                      ? '¿Quieres ser mi San Valentin?'
+                      ? '¿Queres ser mi San Valentin?'
                       : randomValor.description)
                 }
               </span>
@@ -158,14 +158,14 @@ function App() {
       ) : (
         <div className="flex justify-center items-center flex-col space-y-10">
           <h1 className="text-4xl font-bold">
-            Sabia que dirias que si ❤️!
+            JEJEJE YEYYYYYYY!
           </h1>
           <img
             src="https://i.pinimg.com/originals/9b/dc/c6/9bdcc6206c1d36a37149d31108c6bb41.gif"
             alt=""
             className="mx-auto"
           />
-          <span hidden>{(document.title = 'Sabia que dirias que si ❤️!')}</span>
+          <span hidden>{(document.title = 'JEJEJE YEYYYYYYY!')}</span>
         </div>
       )}
     </main>
